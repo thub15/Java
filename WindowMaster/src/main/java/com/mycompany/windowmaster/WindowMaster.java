@@ -31,28 +31,50 @@ public class WindowMaster {
         // declare variable for height and width
         float height;
         float width;
+        float costOfGlass;
+        float costOfTrim;
+        float howManyWindows;
         
-        // declare Sting variables to hold the users inputted height and width
+        // declare String variables to hold the users inputted height and width
+        // also cost of glass and cost of trim
         String stringHeight;
         String stringWidth;
+        String stringCostOfGlass;
+        String stringCostOfTrim;
+        String stringHowManyWindows;
         
         // declare other variables
         float areaOfWindow;
         float perimeterOfWindow;
-        float cost;
+        float costPerWindow;
+        float totalCost;
+        
         
         Scanner myScanner = new Scanner(System.in);
         
         // get input from the user
+        System.out.println("How many windows do you want?");
+        stringHowManyWindows = myScanner.nextLine();
+        
         System.out.println("Please enter the window height:");
         stringHeight = myScanner.nextLine();
+        
         System.out.println("Please enter the window width:");
         stringWidth = myScanner.nextLine();
+        
+        System.out.println("What is the cost of glass per foot?");
+        stringCostOfGlass = myScanner.nextLine();
+        
+        System.out.println("What is the cost of trim?");
+        stringCostOfTrim = myScanner.nextLine();
         
         // Convert String values of height and width to float values
         // Use the Float parseFloat method to convert entered String values into Float type
         height = Float.parseFloat(stringHeight);
         width = Float.parseFloat(stringWidth);
+        costOfGlass = Float.parseFloat(stringCostOfGlass);
+        costOfTrim = Float.parseFloat(stringCostOfTrim);
+        howManyWindows = Float.parseFloat(stringHowManyWindows);
         
         // calculate the area of the window
         areaOfWindow = height * width;
@@ -61,14 +83,18 @@ public class WindowMaster {
         
         // calc the total cost of the window - use a hardcoded variable
         // for material cost
-        cost = ((3.50f * areaOfWindow) + (2.25f * perimeterOfWindow));
+        
+        costPerWindow = ((costOfGlass * areaOfWindow) + (costOfTrim * perimeterOfWindow));
+        totalCost = ((costOfGlass * areaOfWindow) + (costOfTrim * perimeterOfWindow)) * howManyWindows;
         
         // display the results to the user
         System.out.println("Window height = " + stringHeight);
         System.out.println("Window width = " + stringWidth);
         System.out.println("Window area = " + areaOfWindow);
         System.out.println("Window perimeter = " + perimeterOfWindow);
-        System.out.println("Total Cost = " + cost);
+        System.out.println("Price per window = " + costPerWindow);
+        System.out.println("Total Cost = " + totalCost);
+        
         
         
         /* what would I have done differently?

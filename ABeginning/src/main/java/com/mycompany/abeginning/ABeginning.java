@@ -10,7 +10,7 @@ package com.mycompany.abeginning;
  */
 public class ABeginning {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println("Hello World Oi Oi Oi!");
         System.out.println("Hello from the guild!");
         System.out.println("Typing code is easier than I thought!");
         System.out.println("Typity Typity Typity!");
@@ -19,6 +19,7 @@ public class ABeginning {
         System.out.println("And then I will run it,");
         System.out.println("The console will print out all my brilliant words!");
         System.out.println("And it all starts with \'Hello World!\' ..");
+        System.out.println("And then I added a new piece of code");
     }
             
 }

@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author U134713
+ * @author Tom Hubbard
  */
 public class AdderV2 {
     public static void main(String[] args) {

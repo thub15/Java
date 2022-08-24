@@ -6,7 +6,7 @@ package com.mycompany.dobee;
 
 /**
  *
- * @author U134713
+ * @author Tom Hubbard
  */
 public class DoBee {
     public static void main(String[] args) {

@@ -6,7 +6,7 @@ package com.mycompany.adder;
 
 /**
  *
- * @author U134713
+ * @author Tom Hubbard
  */
 public class Adder {
     public static void main(String[] args) {

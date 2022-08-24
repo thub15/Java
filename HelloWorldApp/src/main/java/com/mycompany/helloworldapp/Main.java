@@ -6,7 +6,7 @@ package com.mycompany.helloworldapp;
 
 /**
  *
- * @author U134713
+ * @author Tom Hubbard
  */
 public class Main {
    

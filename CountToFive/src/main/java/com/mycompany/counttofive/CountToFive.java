@@ -6,7 +6,7 @@ package com.mycompany.counttofive;
 
 /**
  *
- * @author U134713
+ * @author Tom Hubbard
  */
 public class CountToFive {
     public static void main(String[] args) {

@@ -6,7 +6,7 @@ package com.mycompany.dayofweek;
 
 /**
  *
- * @author U134713
+ * @author Tom Hubbard
  */
 public class DayOfWeek {
     public static void main(String[] args) {

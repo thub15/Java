@@ -6,7 +6,7 @@ package com.mycompany.arrayfun2;
 
 /**
  *
- * @author U134713
+ * @author Tom Hubbard
  */
 public class ArrayFun2 {
     public static void main(String[] args) {

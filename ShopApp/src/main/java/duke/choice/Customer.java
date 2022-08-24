@@ -6,7 +6,7 @@ package duke.choice;
 
 /**
  *
- * @author U134713
+ * @author Tom Hubbard
  */
 public class Customer {
     public static void main(String[] args) {

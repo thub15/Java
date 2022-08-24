@@ -6,7 +6,7 @@ package com.mycompany.questfortheuserinput;
 import java.util.Scanner;
 /**
  *
- * @author U134713
+ * @author Tom Hubbard
  */
 public class QuestForTheUserInput {
     public static void main(String[] args) {

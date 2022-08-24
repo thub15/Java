@@ -6,7 +6,7 @@ package com.mycompany.myscanner;
 import java.util.Scanner;
 /**
  *
- * @author U134713
+ * @author Tom Hubbard
  */
 public class MyScanner {
     public static void main(String[] args) {

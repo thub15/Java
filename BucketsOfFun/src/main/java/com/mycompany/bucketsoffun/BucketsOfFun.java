@@ -6,7 +6,7 @@ package com.mycompany.bucketsoffun;
 
 /**
  *
- * @author U134713
+ * @author Tom Hubbard
  */
 public class BucketsOfFun {
     public static void main(String[] args) {

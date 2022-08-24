@@ -6,7 +6,7 @@ package com.mycompany.abeginning;
 
 /**
  *
- * @author U134713
+ * @author Tom Hubbard
  */
 public class ABeginning {
     public static void main(String[] args) {

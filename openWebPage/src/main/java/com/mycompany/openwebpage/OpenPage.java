@@ -7,7 +7,7 @@ import java.net.URI;
 
 /**
  *
- * @author U134713
+ * @author Tom Hubbard
  */
 public class OpenPage {
     

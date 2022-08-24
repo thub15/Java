@@ -7,7 +7,7 @@ import javax.swing.*;
 
 /**
  *
- * @author U134713
+ * @author Tom Hubbard
  */
 public class makeButton {
     public static void main(String[] args) {

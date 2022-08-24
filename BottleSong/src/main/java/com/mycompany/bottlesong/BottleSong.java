@@ -6,7 +6,7 @@ package com.mycompany.bottlesong;
 
 /**
  *
- * @author U134713
+ * @author Tom Hubbard
  */
 public class BottleSong {
     public static void main(String[] args)

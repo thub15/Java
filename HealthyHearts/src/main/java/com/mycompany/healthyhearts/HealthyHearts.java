@@ -8,7 +8,7 @@ import java.lang.Math
 
 /**
  *
- * @author U134713
+ * @author Tom Hubbard
  */
 public class HealthyHearts {
     public static void main(String[] args) {

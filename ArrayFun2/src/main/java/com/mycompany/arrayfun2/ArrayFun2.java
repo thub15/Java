@@ -19,5 +19,11 @@ public class ArrayFun2 {
         }
         
         System.out.println("Done!");
-    }
+        
+        int[] numbers2 = new int[]{0,1,2,3};
+        System.out.println("Printing the third item in array");
+        System.out.println(numbers2[2]);
+        System.out.println("Printing the sum of third and fourth numbers in the array");
+        System.out.println(numbers2[2] + numbers2[3]);
+    }   
 }

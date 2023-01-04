@@ -10,7 +10,7 @@ package com.mycompany.dayofweek;
  */
 public class DayOfWeek {
     public static void main(String[] args) {
-        int day = 1;
+        int day = 5;
         String dayName = "";
                 
                 if (day == 1){
@@ -41,7 +41,7 @@ public class DayOfWeek {
                     dayName = "Friday";
                 }
                 */
-                System.out.println("The day of the week is: " + dayName);
+                System.out.println("WooHoo! The day of the week is: " + dayName);
 
                 
     }

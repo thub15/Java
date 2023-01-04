@@ -34,7 +34,7 @@ public class GetBirthstone {
                 System.out.println("Month is May, and your gemstone is Emerald");
                 break;
             case 6:
-                System.out.println("Month is June Pearl");
+                System.out.println("Month is June, and your gemstone is Pearl");
                 break;
             case 7:
                 System.out.println("Month is July, and your gemstone is Ruby");
